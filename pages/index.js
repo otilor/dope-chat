@@ -15,7 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-      
+        <div className='w-1/3'>
+
+        </div>
+
+        <div className='w-2/3'>
+          
+        </div>
       </main>
     </>
   )
