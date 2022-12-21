@@ -37,6 +37,7 @@ export default function Home() {
               <FunnelIcon className='ml-4 align-text-bottom text-gray-600 w-4'/>
             </div>
           </div>
+          <hr className='mt-2 w-2/3'></hr>
         </div>
 
         <div className="w-3/5"></div>
