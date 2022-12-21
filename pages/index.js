@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 import { FunnelIcon } from '@heroicons/react/24/outline'
+import Profiles from '../components/Profiles'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,7 +41,9 @@ export default function Home() {
           <hr className='mt-2 w-2/3'></hr>
         </div>
 
-        <div className="w-3/5"></div>
+        <div className="w-3/5">
+          <Profiles />
+        </div>
       </main>
     </>
   );
