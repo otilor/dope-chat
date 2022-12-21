@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
+import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,27 +16,23 @@ export default function Home() {
       </Head>
       <main>
         <div className="w-1/3">
-          <div>
-            <label
-              htmlFor="price"
-              className="block text-sm font-medium text-gray-700"
-            >
-              Price
-            </label>
-            <div className="relative mt-1 rounded-md shadow-sm">
-              <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                <span className="text-gray-500 sm:text-sm">$</span>
-              </div>
-              <input
-                type="text"
-                name="price"
-                id="price"
-                className="block w-full rounded-md border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                placeholder="0.00"
-              />
-              
-            </div>
-          </div>
+        <div>
+      <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+        Email
+      </label>
+      <div className="mt-1 relative rounded-md shadow-sm">
+        <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+          <MagnifyingGlassIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
+        </div>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          className="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
+          placeholder="you@example.com"
+        />
+      </div>
+    </div>
         </div>
 
         <div className="w-2/3"></div>
