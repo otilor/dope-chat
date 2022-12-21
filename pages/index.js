@@ -39,10 +39,13 @@ export default function Home() {
             </div>
           </div>
           <hr className='mt-2 w-2/3'></hr>
+          <div className='mt-2'>
+            <Profiles />
+          </div>
         </div>
 
         <div className="w-3/5">
-          <Profiles />
+          
         </div>
       </main>
     </>
