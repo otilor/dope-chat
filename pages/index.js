@@ -29,7 +29,7 @@ export default function Home() {
           name="email"
           id="email"
           className="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
-          placeholder="you@example.com"
+          placeholder="Search or start new chat"
         />
       </div>
     </div>
