@@ -26,7 +26,7 @@ const people = [
 
 export default function Profiles() {
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+    <div className="sm:grid-cols-2">
       {people.map((person) => (
         <div
           key={person.email}
