@@ -64,7 +64,7 @@ export default function Home() {
                     <p className="text-sm font-medium text-gray-900">Azzuri</p>
                     <div className="inline-flex items-baseline">
                       <p className="text-sm text-gray-500 truncate">
-                        Dope as fuck
+                        last seen at 15:08
                       </p>
                     </div>
                   </a>
