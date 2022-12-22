@@ -18,9 +18,9 @@ export default function Home() {
       </Head>
       <main>
         <div className="flex">
-          <div className="w-1/5 py-8">
+          <div className="w-1/5 py-7">
             <div className="inline-flex items-baseline">
-              <div className="relative rounded-md shadow-sm">
+              <div className="relative rounded-md shadow-sm mb-5">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <MagnifyingGlassIcon
                     className="h-5 w-5 ml-2 text-gray-600"
@@ -31,7 +31,7 @@ export default function Home() {
                   type="email"
                   name="email"
                   id="email"
-                  className="bg-gray-200 ml-2  p-2 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
+                  className="bg-gray-200 ml-2 p-2 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
                   placeholder="Search or start new chat"
                 />
               </div>
