@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="w-2/5 mt-2">
+        <div className="w-1/5 mt-2">
           <div className='inline-flex items-baseline'>
             <div className="mt-1 relative rounded-md shadow-sm">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-3/5">
+        <div className="w-4/5">
           
         </div>
       </main>
