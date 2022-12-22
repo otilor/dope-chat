@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
-import { FunnelIcon, CheckIcon, VideoCameraIcon } from "@heroicons/react/24/outline";
+import { FunnelIcon, CheckIcon, VideoCameraIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import Profiles from "../components/Profiles";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -66,8 +66,9 @@ export default function Home() {
                       <p className="text-sm text-gray-500 truncate">
                         last seen at 15:08
                       </p>
-                        <div class="absolute top-0 right-0 h-16 w-16">
-                          <VideoCameraIcon />
+                        <div class="absolute mt-5 flex items-baseline top-0 right-0 h-16 w-16">
+                          <VideoCameraIcon className="w-4 m-2 h-4"/>
+                          <PhoneIcon className="w-4 h-4 m-2"/>
                         </div>
                     </div>
                   </a>
