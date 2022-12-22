@@ -88,6 +88,9 @@ const people = [
   // More people...
 ];
 
+
+import { CheckBadgeIcon } from '@heroicons/react/24/solid'
+
 export default function Profiles() {
   return (
     <div className="sm:grid-cols-2">
@@ -107,7 +110,10 @@ export default function Profiles() {
             <a href="#" className="focus:outline-none">
               <span className="absolute inset-0" aria-hidden="true" />
               <p className="text-sm font-medium text-gray-900">{person.name}</p>
-              <p className="text-sm text-gray-500 truncate">{person.role}</p>
+              <div className='inline-flex items-baseline'>
+                <CheckBadgeIcon className='w-4 h-4'/>
+                <p className="text-sm text-gray-500 truncate">{person.role}</p>
+              </div>
             </a>
           </div>
         </div>
